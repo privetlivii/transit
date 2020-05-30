@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Грузоперевозки</title>
+    <meta name="description" content="">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/styles.min.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#34374b">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#34374b">
+    <meta name="msapplication-config" content="favicon/browserconfig.xml">
+    <meta name="theme-color" content="#34374b">
+</head>
+<body>
+<header class="header">
+    <div class="container header-container">
+        <div class="header-top">
+            <div class="header-logo"><img src="img/logo.svg" alt=""></div>
+
+            <ul class="header-nav">
+                <li class="header-nav__items"><a href="#moscow" class="header-nav__links">По Москве</a></li>
+                <li class="header-nav__items"><a href="#mosobl" class="header-nav__links">По Московской области</a></li>
+                <li class="header-nav__items"><a href="#russia" class="header-nav__links">По России</a></li>
+            </ul>
+
+            <div class="nav-menu__toggle"></div>
+
+            <div class="header-phone">
+                <a href="tel:+79017279515" class="phone__link" rel="nofollow"><span class="header-phone__code">+7 (901)</span> 727 95-15</a>
+            </div>
+        </div>
+
+        <div class="header-bottom">
+            <form class="header-form" id="header-form" action="php/sendmail.php" method="POST" target="_blank">
+                <div class="header-form__title">Оставьте телефон, перезвоню</div>
+                <input type="tel" name="phone" id="headerPhone" placeholder="+7 (___) ___ __-__" class="header-form__phone" autocomplete="off">
+                <button class="header-form__button">отправить заявку</button>
+            </form>
+            <ul class="header-characteristic">
+                <li class="header-characteristic__item">Ford Transit</li>
+                <li class="header-characteristic__item">Длина базы: <br> 5 метров</li>
+                <li class="header-characteristic__item">Грузоподъемность:<br> До 1000 кг</li>
+                <li class="header-characteristic__item">Объем:<br> 8,0 м3</li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+
+<section class="container content">
+    <h1 id="moscow">Грузоперевозки по Москве</h1>
+    <div class="content__block ">
+        <div class="content-block__box content-block__box-price">
+            <span class="text-bold">2 часа 1 500 ₽ далее 500 ₽ час</span>
+            100 км - 3 500 р.
+        </div>
+        <div class="content-block__box content-block__box-auto">
+            <span class="text-bold">Нужна машина по больше?</span>
+            Не вопрос, оставляйте заявку.
+        </div>
+    </div>
+
+    <h2 id="mosobl">Грузоперевозки по Московской области</h2>
+    <ul class="town-list">
+        <li class="town-list__item text-bold">Б</li>
+        <li class="town-list__item">Бронницы <span class="town-list__text">2 500 ₽</span></li>
+        <li class="town-list__item text-bold">В</li>
+        <li class="town-list__item">Волоколамск <span class="town-list__text">4 500 ₽</span></li>
+        <li class="town-list__item">Воскресенск <span class="town-list__text">3 500 ₽</span></li>
+        <li class="town-list__item">Высоковск <span class="town-list__text">3 600 ₽</span></li>
+        <li class="town-list__item text-bold">Г</li>
+        <li class="town-list__item">Голицыно <span class="town-list__text">2 500 ₽</span></li>
+        <li class="town-list__item text-bold">Д</li>
+        <li class="town-list__item">Дедовск <span class="town-list__text">2 500 ₽</span></li>
+        <li class="town-list__item">Дмитров <span class="town-list__text">3 000 ₽</span></li>
+        <li class="town-list__item">Домодедово <span class="town-list__text">2 500 ₽</span></li>
+        <li class="town-list__item">Дрезна <span class="town-list__text">3 500 ₽</span></li>
+        <li class="town-list__item">Дубна <span class="town-list__text">4 500 ₽</span></li>
+        <li class="town-list__item text-bold">Е</li>
+        <li class="town-list__item">Егорьевск <span class="town-list__text">4 000 ₽</span></li>
+        <li class="town-list__item text-bold">Ж</li>
+        <li class="town-list__item">Жуковский <span class="town-list__text">2 500 ₽</span></li>
+        <li class="town-list__item text-bold">З</li>
+        <li class="town-list__item">Зарайск <span class="town-list__text">6 000 ₽</span></li>
+        <li class="town-list__item">Звенигород <span class="town-list__text">2 500 ₽</span></li>
+        <li class="town-list__item text-bold">И</li>
+        <li class="town-list__item">Истра <span class="town-list__text">2 500 ₽</span></li>
+        <li class="town-list__item text-bold">К</li>
+        <li class="town-list__item">Кашира <span class="town-list__text">4 500 ₽</span></li>
+        <li class="town-list__item">Клин <span class="town-list__text">3 500 ₽</span></li>
+        <li class="town-list__item">Коломна <span class="town-list__text">4 000 ₽</span></li>
+        <li class="town-list__item">Красноармейск <span class="town-list__text">2 800 ₽</span></li>
+        <li class="town-list__item">Краснозаводск <span class="town-list__text">3 850 ₽</span></li>
+        <li class="town-list__item">Краснознаменск <span class="town-list__text">2 500 ₽</span></li>
+        <li class="town-list__item">Кубинка <span class="town-list__text">3 000 ₽</span></li>
+        <li class="town-list__item">Куровское <span class="town-list__text">3 500 ₽</span></li>
+        <li class="town-list__item text-bold">Л</li>
+        <li class="town-list__item">Лукино-Дулёво <span class="town-list__text">3 500 ₽</span></li>
+        <li class="town-list__item">Луховицы <span class="town-list__text">5 000 ₽</span></li>
+        <li class="town-list__item text-bold">М</li>
+        <li class="town-list__item">Можайск <span class="town-list__text">4 500 ₽</span></li>
+        <li class="town-list__item text-bold">М</li>
+        <li class="town-list__item">Наро-Фоминск <span class="town-list__text">3 000 ₽</span></li>
+        <li class="town-list__item">Ногинск <span class="town-list__text">2 500 ₽</span></li>
+        <li class="town-list__item text-bold">О</li>
+        <li class="town-list__item">Озёры <span class="town-list__text">5 000 ₽</span></li>
+        <li class="town-list__item">Орехово-Зуево <span class="town-list__text">4 000 ₽</span></li>
+        <li class="town-list__item text-bold">П</li>
+        <li class="town-list__item">Павловский Посад <span class="town-list__text">3 000 ₽</span></li>
+        <li class="town-list__item">Пересвет <span class="town-list__text">3 500 ₽</span></li>
+        <li class="town-list__item">Подольск <span class="town-list__text">2 500 ₽</span></li>
+        <li class="town-list__item">Протвино <span class="town-list__text">4 200 ₽</span></li>
+        <li class="town-list__item">Пущино <span class="town-list__text">4 200 ₽</span></li>
+        <li class="town-list__item text-bold">Р</li>
+        <li class="town-list__item">Раменское <span class="town-list__text">2 000 ₽</span></li>
+        <li class="town-list__item">Рошаль <span class="town-list__text">6 000 ₽</span></li>
+        <li class="town-list__item">Руза <span class="town-list__text">4 000 ₽</span></li>
+        <li class="town-list__item text-bold">С</li>
+        <li class="town-list__item">Сергиев посад <span class="town-list__text">3 500 ₽</span></li>
+        <li class="town-list__item">Серпухов <span class="town-list__text">3 500 ₽</span></li>
+        <li class="town-list__item">Солнечногорск <span class="town-list__text">3 000 ₽</span></li>
+        <li class="town-list__item">Ступино <span class="town-list__text">4 000 ₽</span></li>
+        <li class="town-list__item text-bold">Т</li>
+        <li class="town-list__item">Талдом <span class="town-list__text">4 500 ₽</span></li>
+        <li class="town-list__item text-bold">Х</li>
+        <li class="town-list__item">Хотьково <span class="town-list__text">3 000 ₽</span></li>
+        <li class="town-list__item text-bold">Ч</li>
+        <li class="town-list__item">Черноголовка <span class="town-list__text">3 000 ₽</span></li>
+        <li class="town-list__item">Чехов <span class="town-list__text">3 000 ₽</span></li>
+        <li class="town-list__item text-bold">Ш</li>
+        <li class="town-list__item">Шатура <span class="town-list__text">5 000 ₽</span></li>
+        <li class="town-list__item text-bold">Щ</li>
+        <li class="town-list__item">Щёлково <span class="town-list__text">2 000 ₽</span></li>
+        <li class="town-list__item text-bold">Э</li>
+        <li class="town-list__item">Электрогорск <span class="town-list__text">3 000 ₽</span></li>
+        <li class="town-list__item">Электросталь <span class="town-list__text">2 500 ₽</span></li>
+        <li class="town-list__item">Электроугли <span class="town-list__text">2 000 ₽</span></li>
+        <li class="town-list__item text-bold">Я</li>
+        <li class="town-list__item">Яхрома <span class="town-list__text">2 500 ₽</span></li>
+    </ul>
+
+    <h3 id="russia">Грузоперевозки по России</h3>
+    <ul class="town-list">
+        <li class="town-list__item text-bold">А</li>
+        <li class="town-list__item">Алексин <span class="town-list__text">5 250 ₽</span></li>
+        <li class="town-list__item text-bold">Б</li>
+        <li class="town-list__item">Брянск <span class="town-list__text">10 800 ₽</span></li>
+        <li class="town-list__item text-bold">В</li>
+        <li class="town-list__item">Великие Луки <span class="town-list__text">13 500 ₽</span></li>
+        <li class="town-list__item">Великий Новгород <span class="town-list__text">15 600 ₽</span></li>
+        <li class="town-list__item">Вязьма <span class="town-list__text">6 600 ₽</span></li>
+        <li class="town-list__item">Венёв <span class="town-list__text">5 250 ₽</span></li>
+        <li class="town-list__item">Воронеж <span class="town-list__text">15 000 ₽</span></li>
+        <li class="town-list__item">Выкса <span class="town-list__text">10 500 ₽</span></li>
+        <li class="town-list__item">Владимир <span class="town-list__text">6 000 ₽</span></li>
+        <li class="town-list__item text-bold">Г</li>
+        <li class="town-list__item">Гагарин <span class="town-list__text">5 600 ₽</span></li>
+        <li class="town-list__item">Гусь-Хрустальный <span class="town-list__text">7 200 ₽</span></li>
+        <li class="town-list__item text-bold">Д</li>
+        <li class="town-list__item">Десногорск <span class="town-list__text">10 200 ₽</span></li>
+        <li class="town-list__item">Иваново <span class="town-list__text">8 700 ₽</span></li>
+        <li class="town-list__item text-bold">Е</li>
+        <li class="town-list__item">Елец <span class="town-list__text">11 100 ₽</span></li>
+        <li class="town-list__item">Ефремов <span class="town-list__text">9 000 ₽</span></li>
+        <li class="town-list__item text-bold">К</li>
+        <li class="town-list__item">Калуга <span class="town-list__text">5 950 ₽</span></li>
+        <li class="town-list__item">Казань <span class="town-list__text">24 000 ₽</span></li>
+        <li class="town-list__item">Касимов <span class="town-list__text">8 100 ₽</span></li>
+        <li class="town-list__item">Козельск <span class="town-list__text">7 200 ₽</span></li>
+        <li class="town-list__item text-bold">Л</li>
+        <li class="town-list__item">Липецк <span class="town-list__text">12 300 ₽</span></li>
+        <li class="town-list__item text-bold">М</li>
+        <li class="town-list__item">Муром <span class="town-list__text">9 000 ₽</span></li>
+        <li class="town-list__item">Мценск <span class="town-list__text">8 700 ₽</span></li>
+        <li class="town-list__item">Моршанск <span class="town-list__text">12 500 ₽</span></li>
+        <li class="town-list__item">Мичуринск <span class="town-list__text">11 500 ₽</span></li>
+        <li class="town-list__item text-bold">Н</li>
+        <li class="town-list__item">Новомосковск <span class="town-list__text">6 000 ₽</span></li>
+        <li class="town-list__item">Нижний Новгород <span class="town-list__text">12 000 ₽</span></li>
+        <li class="town-list__item text-bold">О</li>
+        <li class="town-list__item">Орёл <span class="town-list__text">10 200 ₽</span></li>
+        <li class="town-list__item">Осташков <span class="town-list__text">10 500 ₽</span></li>
+        <li class="town-list__item text-bold">П</li>
+        <li class="town-list__item">Плавск <span class="town-list__text">6 600 ₽</span></li>
+        <li class="town-list__item text-bold">Р</li>
+        <li class="town-list__item">Ржев <span class="town-list__text">6 300 ₽</span></li>
+        <li class="town-list__item">Рязань <span class="town-list__text">6 300 ₽</span></li>
+        <li class="town-list__item text-bold">С</li>
+        <li class="town-list__item">Смоленск <span class="town-list__text">11 400 ₽</span></li>
+        <li class="town-list__item text-bold">Т</li>
+        <li class="town-list__item">Тула <span class="town-list__text">5 600 ₽</span></li>
+        <li class="town-list__item">Торжок <span class="town-list__text">6 900 ₽</span></li>
+        <li class="town-list__item">Тамбов <span class="town-list__text">13 200 ₽</span></li>
+        <li class="town-list__item text-bold">Р</li>
+        <li class="town-list__item">Рославль <span class="town-list__text">11 100 ₽</span></li>
+        <li class="town-list__item text-bold">Ч</li>
+        <li class="town-list__item">Чебоксары <span class="town-list__text">19 500 ₽</span></li>
+        <li class="town-list__item text-bold">Ш</li>
+        <li class="town-list__item">Шацк <span class="town-list__text">10 500 ₽</span></li>
+        <li class="town-list__item text-bold">Я</li>
+        <li class="town-list__item">Ярославль <span class="town-list__text">8 750 ₽</span></li>
+    </ul>
+    <div class="content-traffic">
+        <div class="content-traffic__box"><span>Перевозки до 200 км 35 руб. км.</span></div>
+        <div class="content-traffic__box"><span>Перевозки свыше 200 км: 30 руб. км.</span></div>
+        <div class="content-traffic__box"><span>Перевозка Москва - Санкт Петербург <br>
+            от МКАДа до КАДа 15 000 ₽</span>
+        </div>
+    </div>
+</section>
+
+<footer class="container footer-container">
+    <div class="foot-logo"><img src="img/logo-foot.svg" alt="">
+        <span>© 2020 Все права сохранены ГК РФ Глава 70</span>
+    </div>
+    <a href="#header-form" class="foot-phone__text">Оставте телефон, перезвоню</a>
+    <div class="foot-phone">
+        <div class="foot-phone__number">
+            <a href="tel:79017279515" class="phone__link">+7 (901) 727 95-15</a>
+            <span>Дмитрий</span>
+        </div>
+    </div>
+</footer>
+
+<!-- Begin Scripts -->
+<script src="js/script.min.js"></script>
+<!-- End Scripts -->
+</body>
+</html>
